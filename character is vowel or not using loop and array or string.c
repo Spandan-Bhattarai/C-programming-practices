@@ -2,10 +2,9 @@
 int main()
 {
     char c, vow[12]="aeiouAEIOU";
-    int i;
     printf("Enter a character: ");
     scanf("%c", &c);
-    for(i=0;i<12;i++)
+    for(int i=0;i<12;i++)
     {
         if(c==vow[i])
         {
@@ -13,7 +12,7 @@ int main()
             goto out;
         }
     }
-    printf("It's cons");
+    printf("It's constant");
     out:
         return 0;
 }
