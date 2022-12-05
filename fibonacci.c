@@ -1,6 +1,8 @@
 #include<stdio.h>
+#include<conio.h>
 void main()
 {
+    clrscr();
     int n,i, a=0, b=1,s;
     printf("Enter upto how many terms \n");
     scanf("%d", &n);
@@ -11,4 +13,5 @@ void main()
         b=s;
         printf("%d ", a);
     }
+    getch();
 }
